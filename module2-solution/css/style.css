@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: 15px arial, sans-serif;
+}
+
+h1 {
+	font-size: 1.75em;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+
+}
+
+.meal {
+	position: relative;
+	width: 90%;
+	border: 1px black solid;
+	text-align: left;
+	background-color: lightgray;
+	padding: 3em 20px 20px 20px;
+	margin: 0px auto;
+}
+
+.chick {
+	background-color: pink;
+	border: 1px black solid;
+	width: 120px;
+	height: 2em;	
+	font-size: 1.25em;
+	position: absolute;
+	right: -1px;
+	top: -1px;
+	text-align: center;
+	line-height: 2em;
+	font-weight: bold;
+}
+
+.beef {
+	background-color: red;
+	border: 1px black solid;
+	width: 120px;
+	height: 2em;	
+	font-size: 1.25em;
+	position: absolute;
+	right: -1px;
+	top: -1px;
+	text-align: center;
+	line-height: 2em;
+	font-weight: bold;
+}
+
+.sushi {
+	background-color: wheat;
+	border: 1px black solid;
+	width: 120px;
+	height: 2em;	
+	font-size: 1.25em;
+	position: absolute;
+	right: -1px;
+	top: -1px;
+	text-align: center;
+	line-height: 2em;
+	font-weight: bold;
+}
+
+.row {
+	width: 33.3%;
+	float: left;
+	margin-left: auto; 
+	margin-right: auto; 
+	position:  relative;
+/*	border: 1px green solid;*/
+}
+
+.wrapper {
+	margin: 0px 1%;
+}
+
+/*mobil*/
+@media (max-width: 767px ){
+	.mobile {
+		width: 100%;
+		margin-bottom: 20px;
+	}	
+}
+
+/*tablet*/
+@media (max-width: 990px) and (min-width: 768px){
+	.tablet-1 {
+		width: 50%;
+		margin-bottom: 40px;
+	}
+
+	.tablet-2 {
+		width: 100%;
+	}
+
+	.tablet-2-meal {
+		width: 95%;
+	}
+
+}
+
+/*desktop*/
+@media (min-width: 991px ){
+	.desktop {
+	}
+}
